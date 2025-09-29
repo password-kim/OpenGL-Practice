@@ -1,0 +1,25 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Force UTF-8 encoding for C/C++ source files
+*.c text working-tree-encoding=UTF-8
+*.cpp text working-tree-encoding=UTF-8
+*.h text working-tree-encoding=UTF-8
+*.hpp text working-tree-encoding=UTF-8
+*.cc text working-tree-encoding=UTF-8
+*.cxx text working-tree-encoding=UTF-8
+
+# Ensure consistent line endings
+*.c eol=crlf
+*.cpp eol=crlf
+*.h eol=crlf
+*.hpp eol=crlf
+*.cc eol=crlf
+*.cxx eol=crlf
+
+# Binary files
+*.exe binary
+*.dll binary
+*.lib binary
+*.obj binary
+*.pdb binary
