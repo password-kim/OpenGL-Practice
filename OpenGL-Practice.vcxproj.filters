@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OpenGL-Practice.cpp">
+    <ClCompile Include="OpenGL-Practice.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
